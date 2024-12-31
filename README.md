@@ -97,7 +97,6 @@ The project provides insights into:
 2. Limited fault tolerance in Kafka brokers.
 3. Results visualization is dependent on Streamlit.
 
----
 
 
 
