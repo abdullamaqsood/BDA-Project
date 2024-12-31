@@ -60,37 +60,6 @@ The architecture of the pipeline follows this flow:
 
 ---
 
-## Installation
-Follow these steps to set up the project:
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/BigDataAnalyticsPipeline.git
-   cd BigDataAnalyticsPipeline
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Start Services**
-   - Start Kafka server.
-   - Start Hadoop and HBase services.
-
-4. **Run Airflow**
-   ```bash
-   airflow scheduler
-   airflow webserver
-   ```
-
-5. **Run the Dashboard**
-   ```bash
-   streamlit run dashboards/dashboard_script.py
-   ```
-
----
-
 ## Usage
 
 ### Running the DAG
@@ -130,12 +99,5 @@ The project provides insights into:
 
 ---
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Submit a pull request.
 
 
