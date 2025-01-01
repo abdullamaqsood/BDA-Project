@@ -28,6 +28,9 @@ The architecture of the pipeline follows this flow:
 ## Data Schema
 
 ### Customer Table
+
+Column Family: info
+
 | Field        | Data Type |
 |--------------|-----------|
 | customer_id  | int       |
@@ -39,15 +42,27 @@ The architecture of the pipeline follows this flow:
 | location     | string    |
 
 ### Product Table
+
+Column Family: details
+
 | Field          | Data Type |
 |----------------|-----------|
 | product_id     | int       |
 | product_name   | string    |
 | category       | string    |
+
+Column Family: inventory
+
+| Field          | Data Type |
+|----------------|-----------|
+| product_id     | int       |
 | price          | int       |
 | stock_quantity | int       |
 
 ### Order Table
+
+Column Family: info
+
 | Field            | Data Type |
 |------------------|-----------|
 | order_id         | int       |
