@@ -7,7 +7,7 @@ This project implements an end-to-end big data analytics pipeline for e-commerce
 - **Real-Time Data Ingestion**: Uses Kafka to ingest streaming data.
 - **Distributed Storage**: Hadoop and HBase for scalable storage solutions.
 - **ETL Processing**: MapReduce-based data cleaning and transformation.
-- **Data Analysis**: Spark for exploratory and statistical data analysis.
+- **Data Analysis**: Python is used for exploratory and Spark is used for statistical data analysis.
 - **Interactive Dashboards**: Built using Streamlit to present results visually.
 
 ---
@@ -67,7 +67,7 @@ The architecture of the pipeline follows this flow:
 2. Trigger the `bda_pipeline` DAG.
 
 ### Viewing Results
-1. Access the Streamlit dashboard at `http://localhost:8501`.
+1. Access the Streamlit dashboards at `http://localhost:8501` and `http://localhost:8502`.
 2. Explore key metrics such as:
    - Top customers by revenue.
    - Top-selling products.
@@ -93,9 +93,8 @@ The project provides insights into:
 2. Transaction data is streamed in real-time, while stock updates are batched.
 
 ### Limitations
-1. Pipeline scalability not tested for datasets exceeding 100 million records.
-2. Limited fault tolerance in Kafka brokers.
-3. Results visualization is dependent on Streamlit.
+1. Pipeline scalability not tested for datasets exceeding 10GB.
+2. Results visualization is dependent on Streamlit.
 
 
 
