@@ -22,6 +22,7 @@ The architecture of the pipeline follows this flow:
 5. Streamlit dashboard for data visualization.
 
 ![Pipeline Architecture](Images/architecture_diagram.jpg)
+![Architecture](Images/Architecture.png)
 
 ---
 
