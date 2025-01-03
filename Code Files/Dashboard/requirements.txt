@@ -1,3 +1,0 @@
-streamlit
-happybase
-plotly-express

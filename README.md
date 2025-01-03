@@ -138,6 +138,16 @@ The project provides insights into:
 
 ---
 
+## Setup Instructions
+For detailed step-by-step setup instructions, please refer to the [Setup Guide](Code_Files/README.md).
+
+---
+
+## Demo Video
+Watch the complete demo of the project in this [video demo](https://www.youtube.com/watch?v=wp9aBacO-QM).
+
+---
+
 ## Assumptions and Limitations
 
 ### Assumptions
