@@ -21,7 +21,7 @@ The architecture of the pipeline follows this flow:
 4. Spark for performing EDA and ML.
 5. Streamlit dashboard for data visualization.
 
-![Pipeline Architecture](docs/architecture_diagram.jpg)
+![Pipeline Architecture](Images/architecture_diagram.jpg)
 
 ---
 
@@ -97,7 +97,7 @@ The project provides insights into:
 - **Demographic Insights**: Sales distribution by age, gender, and location.
 - **Revenue Analysis**: Total revenue over time.
 
-![Dashboard Screenshot](dashboards/dashboard_screenshot.png)
+![Dashboard Screenshot](Images/dashboard_screenshot.png)
 
 ---
 
