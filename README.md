@@ -130,8 +130,6 @@ The project provides insights into:
 - **Demographic Insights**: Sales distribution by age, gender, and location.
 - **Revenue Analysis**: Total revenue over time.
 
-![Dashboard Screenshot](Images/Dashboard.png)
-
 ---
 
 ## Setup Instructions
