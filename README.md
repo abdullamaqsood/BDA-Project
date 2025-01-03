@@ -119,11 +119,7 @@ The following visualizations provide insights based on data analysis:
 2. Trigger the `bda_pipeline` DAG.
 
 ### Viewing Results
-1. Access the Streamlit dashboards at `http://localhost:8501` and `http://localhost:8502`.
-2. Explore key metrics such as:
-   - Top customers by revenue.
-   - Top-selling products.
-   - Sales trends by age, gender, location, and month.
+Access the Streamlit dashboards at `http://localhost:8501` and `http://localhost:8502`.
 
 ---
 
