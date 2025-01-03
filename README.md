@@ -17,7 +17,7 @@ The architecture of the pipeline follows this flow:
 
 1. Kafka for data ingestion.
 2. Hadoop and HBase for distributed storage and processing.
-3. Airflow for orchestrating the workflow.
+3. Airflow for orchestrating the pipeline.
 4. Spark for performing EDA and ML.
 5. Streamlit dashboard for data visualization.
 
