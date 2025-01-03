@@ -75,6 +75,23 @@ Column Family: info
 
 ---
 
+## Exploratory Data Analysis (EDA)
+The following visualizations provide insights into customer demographics and behavior:
+
+### Age Distribution
+![Age Distribution](Images/EDA1.png)
+
+### Location Distribution
+![Location Distribution](Images/EDA2.png)
+
+### Category Distribution
+![Category Distribution](Images/EDA3.png)
+
+### Payment Method Distribution
+![Payment Method Distribution](Images/EDA4.png)
+
+---
+
 ## Usage
 
 ### Running the DAG
@@ -110,7 +127,4 @@ The project provides insights into:
 ### Limitations
 1. Pipeline scalability not tested for datasets exceeding 10GB.
 2. Results visualization is dependent on Streamlit.
-
-
-
 
