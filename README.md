@@ -52,7 +52,7 @@ The architecture of the pipeline follows this flow:
 4. Spark for performing EDA and ML.
 5. Streamlit dashboard for data visualization.
 
-![Pipeline Architecture](Images/architecture_diagram.jpg)
+![Pipeline Architecture](Images/Pipeline.jpg)
 ![Architecture](Images/Architecture.png)
 
 ---
