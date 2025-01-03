@@ -29,6 +29,8 @@
     - [Assumptions](#assumptions)
     - [Limitations](#limitations)
 
+---
+
 ## Description
 This project implements an end-to-end big data analytics pipeline for e-commerce data analysis. The pipeline processes, analyzes, and visualizes customer, product, and order data using a combination of big data tools and technologies. Key objectives include identifying top customers and products, analyzing sales trends by demographic factors, and computing total revenue.
 
