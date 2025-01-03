@@ -92,6 +92,26 @@ The following visualizations provide insights into customer demographics and beh
 
 ---
 
+## Analysis
+The following visualizations provide insights based on data analysis:
+
+### Highest Monthly Sale and Total Revenue
+![Highest Monthly Sale and Total Revenue](Images/Analysis1.png)
+
+### Age Distribution of Customers
+![Age Distribution Analysis](Images/Analysis2.png)
+
+### Gender-wise Sales Distribution
+![Gender Sales Analysis](Images/Analysis3.png)
+
+### Customer Count by Location
+![Customer Count by Location](Images/Analysis4.png)
+
+### Top Products by Quantity and Revenue
+![Top Products Analysis](Images/Analysis5.png)
+
+---
+
 ## Usage
 
 ### Running the DAG
