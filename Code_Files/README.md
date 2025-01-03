@@ -4,6 +4,54 @@ This document provides step-by-step instructions to set up and run the project u
 
 ---
 
+## **Table of Contents**
+1. [Kafka Container Setup](#kafka-container-setup)
+   - [Create Topics](#create-topics)
+   - [List Topics](#list-topics)
+   - [Delete Topics](#delete-topics)
+   - [View Topic Data](#view-topic-data)
+   - [Edit Server Properties](#edit-server-properties)
+
+2. [Hadoop-Namenode Container Setup](#hadoop-namenode-container-setup)
+   - [Create Hadoop Tar File](#create-hadoop-tar-file)
+   - [Compile Java Files and Create JAR](#compile-java-files-and-create-jar)
+   - [Generate JAR File](#generate-jar-file)
+   - [Extract HBase Tar File](#extract-hbase-tar-file)
+   - [Create HDFS Directories](#create-hdfs-directories)
+
+3. [Airflow Container Setup](#airflow-container-setup)
+   - [Access Airflow Container](#access-airflow-container)
+   - [Install Dependencies](#install-dependencies)
+   - [Unpack Hadoop Files](#unpack-hadoop-files)
+   - [Set Environment Variables](#set-environment-variables)
+   - [Install Java](#install-java)
+   - [Extract HBase Files](#extract-hbase-files)
+   - [HDFS Configuration](#hdfs-configuration)
+   - [Run Hadoop Jobs](#run-hadoop-jobs)
+
+4. [HBase Container Setup](#hbase-container-setup)
+   - [Create Tables](#create-tables)
+   - [HDFS and HFiles Setup](#hdfs-and-hfiles-setup)
+   - [Generate HFiles](#generate-hfiles)
+   - [Load HFiles into HBase](#load-hfiles-into-hbase)
+
+5. [Spark Setup](#spark-setup)
+   - [Install Spark and Verify](#install-spark-and-verify)
+   - [Run Spark Jobs](#run-spark-jobs)
+
+6. [Zookeeper Setup](#zookeeper-setup)
+   - [Enable Zookeeper Commands](#enable-zookeeper-commands)
+
+7. [Dashboard Container Setup](#dashboard-container-setup)
+   - [Run Streamlit Dashboard](#run-streamlit-dashboard)
+
+8. [Extra Utility Commands](#extra-utility-commands)
+   - [Remove HDFS Directories](#remove-hdfs-directories)
+   - [Find Airflow Database](#find-airflow-database)
+   - [Connect Docker Network](#connect-docker-network)
+
+---
+
 ## **Kafka Container Setup**
 
 ### **Create Topics**

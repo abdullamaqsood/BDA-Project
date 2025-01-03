@@ -1,5 +1,34 @@
 # E-Commerce Big Data Processing and Analysis Pipeline
 
+# Table of Contents
+1. [Description](#description)
+2. [Key Features](#key-features)
+3. [Architecture](#architecture)
+4. [Data Schema](#data-schema)
+   - [Customer Table](#customer-table)
+   - [Product Table](#product-table)
+   - [Order Table](#order-table)
+5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+   - [Age Distribution](#age-distribution)
+   - [Location Distribution](#location-distribution)
+   - [Category Distribution](#category-distribution)
+   - [Payment Method Distribution](#payment-method-distribution)
+6. [Analysis](#analysis)
+   - [Highest Monthly Sale and Total Revenue](#highest-monthly-sale-and-total-revenue)
+   - [Age Distribution of Customers](#age-distribution-of-customers)
+   - [Gender-wise Sales Distribution](#gender-wise-sales-distribution)
+   - [Customer Count by Location](#customer-count-by-location)
+   - [Top Products by Quantity and Revenue](#top-products-by-quantity-and-revenue)
+7. [Usage](#usage)
+   - [Running the DAG](#running-the-dag)
+   - [Viewing Results](#viewing-results)
+8. [Results](#results)
+9. [Setup Instructions](#setup-instructions)
+10. [Demo Video](#demo-video)
+11. [Assumptions and Limitations](#assumptions-and-limitations)
+    - [Assumptions](#assumptions)
+    - [Limitations](#limitations)
+
 ## Description
 This project implements an end-to-end big data analytics pipeline for e-commerce data analysis. The pipeline processes, analyzes, and visualizes customer, product, and order data using a combination of big data tools and technologies. Key objectives include identifying top customers and products, analyzing sales trends by demographic factors, and computing total revenue.
 
